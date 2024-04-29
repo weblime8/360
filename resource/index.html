@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>科源资源网</title>
+</head>
+
+<body>
+    <h1 align="center"><a>科源资源网</a></h1>
+    <hr><pre>
+<a href="./exe/">[TOP]常用软件</a>                                           2024-04-27 12:30      260.5MB
+<a href="./windows/">windows镜像</a>                                             2024-04-27 12:30      17.1GB
+<a href="https://www.123pan.com/s/em4iVv-Dtzgh.html">希沃win11.iso</a>                                           2024-04-27 19:42      6.1GB
+</pre>
+    <hr>
+</body>
+<script language="JavaScript">
+    //禁止页面选择以及鼠标右键
+    document.οncοntextmenu = function() {
+        return false;
+    };
+    document.onselectstart = function() {
+        return false;
+    };
+    let h = window.innerHeight;
+    let w = window.innerWidth;
+
+    //禁用右键
+    document.oncontextmenu = function() {
+        return false;
+    };
+
+    //在本网页的任何键盘敲击事件都是无效操作 （防止F12和shift+ctrl+i调起开发者工具）  
+    window.onkeydown = window.onkeyup = window.onkeypress = function() {
+        window.event.returnValue = false;
+        return false;
+    }
+
+    //禁用开发者工具F12
+    document.onkeydown = function() {
+        if (window.event && window.event.keyCode == 123) {
+            event.keyCode = 0;
+            event.returnValue = false;
+            return false;
+        }
+    };
+
+    //如果用户在工具栏调起开发者工具，那么判断浏览器的可视高度和可视宽度是否有改变，如有改变则关闭本页面  
+    window.onresize = function() {
+        if (h != window.innerHeight || w != window.innerWidth) {
+            window.close();
+            window.location = "about:blank";
+        }
+    }
+</script>
+
+</html>

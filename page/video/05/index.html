@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="color-scheme" content="light dark">
+    <title>Windows XP 2024你值得拥有</title>
+    <meta name="keywords" content="视频,video">
+    <meta name="description" content="视频前文字如果你无法看到该视频，那么可能你的电脑不支持该文件格式。视频后文字">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/layui.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/prism.css?t=1706260572">
+    <link rel="stylesheet" href="/css/iconfont.css?t=1706260572">
+    <link rel="stylesheet" href="/css/simply.css?t=1706260572">
+    <script>
+        window.theme = {
+            isMobile: /windows phone|iphone|android|HarmonyOS/gi.test(window.navigator.userAgent),
+            mediaQuery: window.matchMedia('(prefers-color-scheme: dark)'),
+            detectIE: function() {
+                let ua = window.navigator.userAgent,
+                    ie = ua.indexOf('MSIE ');
+                if (ie > 0) {
+                    return parseInt(ua.substring(ie + 5, ua.indexOf('.', ie)), 10);
+                }
+                if (ua.indexOf('Trident/') > 0) {
+                    let rv = ua.indexOf('rv:');
+                    return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+                }
+                let edge = ua.indexOf('.Edge/');
+                return edge > 0 && parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            },
+            swiperDelay: 3
+        }
+        theme.detectIE() && alert('当前站点不支持IE浏览器（或您开启了兼容模式），请使用其他浏览器访问（或关闭兼容模式）。');
+        localStorage.getItem('dark-mode') && document.documentElement.classList.add('dark');
+
+        function darkModeHandler() {
+            if (!theme.isMobile) return;
+            if (theme.mediaQuery.matches) {
+                document.documentElement.classList.remove('light');
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.documentElement.classList.add('light');
+            }
+        }
+        darkModeHandler();
+        theme.mediaQuery.addListener(darkModeHandler);
+    </script>
+</head>
+
+<body class="line-numbers" data-prismjs-copy="复制" data-prismjs-copy-success="已复制" data-prismjs-copy-error="按Ctrl+C复制">
+    <header>
+        <div class="flex-v-between container">
+            <div class="flex-v-center left">
+                <a class="flex-v-center logo" href="/index.html" title="这里是免费的资源下载网站">
+                    科技语者资源站 </a>
+            </div>
+            <div class="flex-v-between right">
+                <nav>
+                    <nav>
+                        <ul class="nav-items">
+                            <li class="item"><a href="/index.html">首页</a></li>
+                            <li class="item"><a href="https://txc.qq.com/products/643969">反馈大厅</a></li>
+                            <li class="item"><a href="/Chat/">聊天机器人</a></li>
+                            <li class="item"><a href="/page/">合作伙伴</a></li>
+                            <li class="item">
+                                <a>资源下载<i class="icon-simply icon-down ml-5"></i></a>
+                                <div class="nav-child-box">
+                                    <ul class="nav-child-items">
+                                        <li class="item"><a href="/resource/">主站</a></li>
+                                        <li class="item"><a href="/resource/windows/" target="_blank">windows</a></li>
+                                        <li class="item"><a href="/resource/exe/" target="_blank">常用软件</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a>实用小工具<i class="icon-simply icon-down ml-5"></i></a>
+                                <div class="nav-child-box">
+                                    <ul class="nav-child-items">
+                                        <li class="item"><a href="/tool/test/">键盘测试</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a>联系我们<i class="icon-simply icon-down ml-5"></i></a>
+                                <div class="nav-child-box">
+                                    <ul class="nav-child-items">
+                                        <li class="item"><a href="https://work.weixin.qq.com/kfid/kfc1abc6e82a6a64579">微信客服</a></li>
+                                        <li class="item"><a href="/ID/wechat.html">企业微信</a></li>
+                                        <li class="item"><a href="/ID/qq.html">QQ</a></li>
+                                        <li class="item"><a href="/ID/bilibili.html">哔哩哔哩</a></li>
+                                        <li class="item"><a href="/ID/feishu.html">飞书</a></li>
+                                        <li class="item"><a href="/ID/pd.html">QQ频道</a></li>
+                                        <li class="item"><a href="/ID/xiaoshijie.html">QQ小世界</a></li>
+                                        <li class="item"><a href="/ID/douyin.html">抖音</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </nav>
+                <div class="divider-vertical">
+                    <button class="button-switch" id="dark-mode" type="button" role="switch">
+        			<div class="icon-box">
+        				<i class="icon-simply icon-during"></i>
+        				<i class="icon-simply icon-night"></i>
+        			</div>
+        		</button>
+                </div>
+                <div class="divider-vertical"><a class="color-theme" href="/login/signin.html">登录</a></div>
+                <div class="divider-vertical"><a class="color-theme" href="/login/signup.html">注册</a></div>
+            </div>
+            <div class="flex-center xs-nav-button">
+                <div class="nav-burger"></div>
+            </div>
+            <div class="xs-nav-layer"></div>
+        </div>
+    </header>
+    <div class="container container-path">
+        <div class="web-path">
+            <a class="path" href="/index.html"><i class="icon-simply icon-home mr-5"></i>首页</a><span class="path">正文</span>
+        </div>
+    </div>
+    <div class="container frame-container container-article container-log">
+        <main class="frame-main">
+            <div class="box modularity">
+                <div class="modul-info">
+                    <div class="user-info">
+                        <a class="avatar" href="#">
+                            <img src="/img/微信图片_20240316142413.jpg" alt="科技语者">
+                        </a>
+                        <div class="user-meta">
+                            <div class="nickname"><a href="#">科技语者</a></div>
+                            <div class="other">2024-04-21 19:45</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modul-body">
+                    <article>
+                        <h1 class="title">Windows XP 2024你值得拥有</h1>
+                        <div class="content">
+                            <iframe src="//player.bilibili.com/player.html?aid=1803296782&bvid=BV1Pt421j7b8&cid=1515047029&p=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+                        </div>
+                    </article>
+                    <ul class="log-copyright">
+                        <li class="item"><span>视频作者：</span>科技语者</li>
+                        <li class="item"><span>本文链接：</span>https://moss.pc.icu/page/video/05/<i class="clipboard icon-simply icon-copy-fill ml-5" data-clipboard-text="https://moss.pc.icu/page/video/05/"></i></li>
+                        <li class="item"><span>版权申明：</span>除非特别说明，否则均为本站原创文章，转载或复制请注明出处。</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <aside class="frame-aside">
+            <aside class="frame-aside">
+
+                <div class="box aside-blogger">
+                    <div class="blogger-image">
+                        <img src="/img/hacker2.dd3a241b.jpg" alt="科技语者" />
+                    </div>
+                    <div class="user-info">
+                        <div class="avatar">
+                            <img src="/img/微信图片_20240316142413.jpg" alt="科技语者" />
+                        </div>
+                        <div class="user-meta">
+                            <div class="nickname">科技语者</div>
+                            <div class="other">当代科技智慧 引领未来语言</div>
+                        </div>
+                    </div>
+                    <ul class="flex-list blogger-statistic">
+                        <li class="item">
+                            <div class="name">文章数</div>
+                            <div class="value">999+</div>
+                        </li>
+                        <li class="item">
+                            <div class="name">评论数</div>
+                            <div class="value">999+</div>
+                        </li>
+                        <li class="item">
+                            <div class="name">用户数</div>
+                            <div class="value">999+</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box modularity aside-search">
+                    <div class="modul-head">
+                        <div class="modul-title">
+                            <i class="icon-simply icon-search mr-5"></i>搜索B站作品</div>
+                        <div class="colorful-dot"></div>
+                    </div>
+                    <div class="modul-body">
+                        <form name="aside-search-form" method="get" action="https://space.bilibili.com/3546643693570855/search/video">
+                            <input name="keyword" class="search-input" autocomplete="off" aria-label="Search" type="text">
+                            <button type="submit" class="search-submit">搜索</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="box modularity aside-puzzle">
+                    <div class="modul-head">
+                        <div class="modul-title">
+                            <i class="icon-simply icon-puzzle mr-5"></i>时光慢漫 </div>
+                        <div class="colorful-dot"></div>
+                    </div>
+                    <div class="modul-body">
+                        <div class="aside-timelife-body"></div>
+                    </div>
+                </div>
+                <div class="box modularity aside-archive">
+                    <div class="modul-head">
+                        <div class="modul-title">
+                            <i class="icon-simply icon-archive mr-5"></i>资源下载</div>
+                        <div class="colorful-dot"></div>
+                    </div>
+                    <div class="modul-body">
+                        <div class="virtual-select">
+                            <div class="action">
+                                <div class="value">请选择</div>
+                                <i class="icon-simply icon-down"></i>
+                            </div>
+                            <ul class="select">
+                                <li class="option"><a href="/resource/">科源资源网</a></li>
+                                <li class="option"><a href="/resource/exe/">常用软件</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box modularity aside-tag">
+                    <div class="modul-head">
+                        <div class="modul-title">
+                            <i class="icon-simply icon-tag mr-5"></i>联系我们</div>
+                        <div class="colorful-dot"></div>
+                    </div>
+                    <div class="modul-body">
+                        <ul class="aside-tag-list">
+                            <li class="item">
+                                <a href="https://work.weixin.qq.com/kfid/kfc1abc6e82a6a64579" title="微信客服">
+                                    <div class="title">微信客服</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/wechat.html" title="企业微信">
+                                    <div class="title">企业微信</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/qq.html" title="QQ">
+                                    <div class="title">QQ</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/pd.html" title="QQ频道">
+                                    <div class="title">QQ频道</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/xiaoshijie.html" title="QQ小世界">
+                                    <div class="title">QQ小世界</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/bilibili.html" title="哔哩哔哩">
+                                    <div class="title">哔哩哔哩</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://weibo.com/u/7086338548" title="微博">
+                                    <div class="title">微博</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/feishu.html" title="飞书">
+                                    <div class="title">飞书</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="/ID/douyin.html" title="抖音">
+                                    <div class="title">抖音</div>
+                                    <span class="badge">1</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box modularity aside-comment">
+                    <div class="modul-head">
+                        <div class="modul-title">
+                            <i class="icon-simply icon-message mr-5"></i>更新日志 </div>
+                        <div class="colorful-dot"></div>
+                    </div>
+                    <div class="modul-body">
+                        <ul class="aside-message-list">
+                            <li class="item">
+                                <div class="user-info">
+                                    <div class="avatar">
+                                        <img src="/img/微信图片_20240316142413.jpg" alt="科技语者">
+                                    </div>
+                                    <div class="user-meta">
+                                        <div class="nickname">科技语者</div>
+                                    </div>
+                                </div>
+                                <div class="ago">2024/04/27 12:30</div>
+                                <a class="message">[V2.0]在此次更新中，我们新增了两项实用的功能，为您带来更多的便利和乐趣：1.南屿ChatGPT：现在您可以使用我们网站的南屿ChatGPT进行对话。南屿ChatGPT是一款先进的人工智能聊天机器人，能够为您提供智能的对话和回答。无论是闲聊、知识查询还是其他问题，南屿ChatGPT都可以满足您的需求。2.在线键盘测试：想知道您的键盘打字速度吗？我们新增了在线键盘测试功能，让您可以测试和提高自己的打字速度。通过参加测试，您可以了解自己的打字水平，并获得有趣的数据。如果您有任何问题或建议，请随时联系我们的支持团队。</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="xs-hidden">来不及找到心仪的内容？按<kbd class="mx-5">Ctrl</kbd>＋<kbd class="mx-5">D</kbd>加入收藏夹吧！</div>
+            <ul class="flex-list">
+                <li class="item"><a href="https://icp.gov.moe/?keyword=20248600" target="_blank">萌ICP备20248600号</a></li>
+            </ul>
+            <div class="info">
+
+                <script>
+                    ! function(p) {
+                        "use strict";
+                        ! function(t) {
+                            var s = window,
+                                e = document,
+                                i = p,
+                                c = "".concat("https:" === e.location.protocol ? "https://" : "http://", "sdk.51.la/js-sdk-pro.min.js"),
+                                n = e.createElement("script"),
+                                r = e.getElementsByTagName("script")[0];
+                            n.type = "text/javascript", n.setAttribute("charset", "UTF-8"), n.async = !0, n.src = c, n.id = "LA_COLLECT", i.d = n;
+                            var o = function() {
+                                s.LA.ids.push(i)
+                            };
+                            s.LA ? s.LA.ids && o() : (s.LA = p, s.LA.ids = [], o()), r.parentNode.insertBefore(n, r)
+                        }()
+                    }({
+                        id: "KHHxF3AZ2YznjvOy",
+                        ck: "KHHxF3AZ2YznjvOy",
+                        autoTrack: true,
+                        hashMode: true
+                    });
+                </script>
+            </div>
+        </div>
+    </footer>
+    <div class="sidebar">
+        <div class="item sidebar-totop">
+            <i class="icon-simply icon-totop"></i>
+        </div>
+    </div>
+    <script language="JavaScript">
+        //禁止页面选择以及鼠标右键
+        document.οncοntextmenu = function() {
+            return false;
+        };
+        document.onselectstart = function() {
+            return false;
+        };
+        let h = window.innerHeight;
+        let w = window.innerWidth;
+
+        //禁用右键
+        document.oncontextmenu = function() {
+            return false;
+        };
+
+        //在本网页的任何键盘敲击事件都是无效操作 （防止F12和shift+ctrl+i调起开发者工具）  
+        window.onkeydown = window.onkeyup = window.onkeypress = function() {
+            window.event.returnValue = false;
+            return false;
+        }
+
+        //禁用开发者工具F12
+        document.onkeydown = function() {
+            if (window.event && window.event.keyCode == 123) {
+                event.keyCode = 0;
+                event.returnValue = false;
+                return false;
+            }
+        };
+
+        //如果用户在工具栏调起开发者工具，那么判断浏览器的可视高度和可视宽度是否有改变，如有改变则关闭本页面  
+        window.onresize = function() {
+            if (h != window.innerHeight || w != window.innerWidth) {
+                window.close();
+                window.location = "about:blank";
+            }
+        }
+    </script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/layui.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/prism-core.min.js"></script>
+    <script src="/js/prism-autoloader.min.js"></script>
+    <script src="/js/prism-toolbar.min.js"></script>
+    <script src="/js/prism-line-numbers.min.js"></script>
+    <script src="/js/prism-show-language.min.js"></script>
+    <script src="/js/prism-copy-to-clipboard.min.js"></script>
+    <script src="/js/simply.js?t=1706260572"></script>
+</body>
+
+</html>
